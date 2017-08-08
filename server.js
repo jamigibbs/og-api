@@ -2,6 +2,8 @@ var ogs = require('open-graph-scraper');
 var express = require('express');
 var app = express();
 
+app.use(allowCrossDomain);
+
 app.get('/', function (req, res) {
   if(req.query['url']){
 
