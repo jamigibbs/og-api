@@ -1,0 +1,23 @@
+{
+  "name": "og-api",
+  "version": "0.1.0",
+  "description": "Extract Open Graph info.",
+  "license": "MIT",
+  "engines": {
+    "node": "8.1.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jami Gibbs",
+  "dependencies": {
+    "express": "^4.15.4",
+    "open-graph-scraper": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamigibbs/og-api"
+  },
+}
